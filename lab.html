@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="Profile" />
+		<meta name="keywords" content="Muris Fazlic" />
+		<meta charset="UTF-8" />
+		<link href="http://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet" type="text/css">
+		<link type="text/css" rel="stylesheet" href="css/intro.css">
+		<title>Lab Login</title>
+	</head>
+	<body>
+		<nav class="top_menu">
+			<div class="container">
+				<div class="header-primary">
+					<a class="header-image" href="/"></a>
+				</div>
+				<a href="https://twitter.com/yo_mook" class="link ex1"> twitter</a>
+				<a href="http://www.instagram.com/le_mook" class="link"> instagram</a>
+				<a href="http://linkedin.com/in/murisf" class="link"> linkedin</a>
+				<a href="https://www.goodreads.com/PapaMuki" class="link"> goodreads</a>
+				<a href="https://bitbucket.org/murisf" class="link"> bitbucket</a>
+			</div>
+		</nav>
+        <br>
+		<h1 style="position:relative">Simple Login Page</h1>
+        <form name="login">
+            Username<input type="text" name="userid"/>
+            Password<input type="password" name="pswrd"/>
+            <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "mook" && form.pswrd.value == "pfft") {
+                    window.open('target.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+	</body>
+</html>

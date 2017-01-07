@@ -1,0 +1,29 @@
+Just Muris Fazlic adding content and design to this website.  As of now, it's being hosted on UMSL server.
+St.Louis; Reach me at @yo_mook
+**********
+
+Humans.txt standard
+
+**********
+
+/* TEAM */                       
+Your title: Muris Fazlic
+                     
+Site: umsl.edu/~mfrp9
+
+Twitter: @yo_mook
+                     
+Location: St. Louis, US
+
+/* SITE */
+                          
+Last update: 2014/06/07
+
+                            
+Standards:
+
+                            
+Components:
+
+                            
+Software: Software used for the development

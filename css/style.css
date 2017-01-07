@@ -1,0 +1,69 @@
+a.btn {
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+	text-align:center;
+	min-width:87px;
+	margin:0px;
+	width:250px;
+	height:60px;
+	padding:0px;
+	line-height:57px;
+	font-size:32px;
+	-webkit-border-radius:10px;
+	border-radius:3px;
+	border:1px solid transparent;
+	background:#9D3021;
+	color:#fff;
+	text-shadow:0 1px 0 rgba( 0, 0, 0, 0.29);
+	font-weight:bold;
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:none;
+	position:absolute;
+	right:1%;
+	bottom:2%;
+}
+
+a.btn:hover {
+	background:#800000;
+}
+
+a.inst {
+	position:absolute;
+	right:95%;
+	bottom:2%;
+}
+
+a.twi {
+	position:absolute;
+	right:92%;
+	bottom:2%;
+}
+
+a.lin {
+	position:absolute;
+	right:89%;
+	bottom:2%;
+}
+
+a.plus {
+	position:absolute;
+	right:86%;
+	bottom:2%;
+}
+
+.construction {
+	font-size:10px;
+	color:#FF9933;
+}
+
+
+body {
+	background-image:url('../img/city.jpg');
+	background-size:100%;
+}
+
+p {
+	font-family: "Helvetica", sans-serif;
+	color:#fff;
+	font-size:32px;
+}
